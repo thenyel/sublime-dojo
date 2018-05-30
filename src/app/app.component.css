@@ -1,0 +1,69 @@
+container {
+
+}
+
+border {
+  &--left {
+
+  }
+
+  &--right {
+
+  }
+
+}
+
+header {
+  &__logo {
+
+  }
+
+  &__title {
+
+  }
+
+} 
+
+content {
+
+}
+
+info {
+  &__pressed {
+
+  }
+
+  &__pressed-label {
+
+  }
+
+  &__pressed-key {
+
+  }
+
+  &__pressed {
+
+    &--correct {
+
+    }
+
+  }
+
+  &__pressed-label {
+
+  }
+
+  &__pressed-key {
+
+  }
+
+} 
+
+shortcut {
+  &__title {
+
+  }
+  &__image {
+
+  }
+}

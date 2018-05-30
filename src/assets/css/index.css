@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Norwester';
+  src: url('css/fonts/norwester.eot'); /* IE9 Compat Modes */
+  src: url('css/fonts/norwester.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('css/fonts/norwester.woff') format('woff'), /* Pretty Modern Browsers */
+       url('css/fonts/norwester.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('css/fonts/norwester.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('fonts/TitilliumWeb-Light.ttf'); /* IE9 Compat Modes */
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('fonts/TitilliumWeb-Regular.ttf'); /* IE9 Compat Modes */
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('fonts/TitilliumWeb-SemiBold.ttf'); /* IE9 Compat Modes */
+  font-weight: 500;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'TitilliumWeb', sans-serif;
+}

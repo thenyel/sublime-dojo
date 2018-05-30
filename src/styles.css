@@ -1,1 +1,132 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Norwester';
+  src: url('assets/css/fonts/norwester.eot'); /* IE9 Compat Modes */
+  src: url('assets/css/fonts/norwester.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/css/fonts/norwester.woff') format('woff'), /* Pretty Modern Browsers */
+       url('assets/css/fonts/norwester.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/css/fonts/norwester.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('assets/css/fonts/TitilliumWeb-Light.ttf'); /* IE9 Compat Modes */
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('assets/css/fonts/TitilliumWeb-Regular.ttf'); /* IE9 Compat Modes */
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('assets/css/fonts/TitilliumWeb-SemiBold.ttf'); /* IE9 Compat Modes */
+  font-weight: 500;
+}
+
+
+
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'TitilliumWeb', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  border-top: 20px solid yellow;
+  border-bottom: 20px solid yellow;
+}
+
+.border {
+  width: 15px;
+  height: 100px;
+  background-color: yellow;
+
+  &--left {
+    position: fixed;
+    left: 0;
+  }
+
+  &--right {
+
+  }
+
+}
+
+.header {
+  &__logo {
+    img {
+      width: 30px;
+    }
+    
+    &-text {
+      font-family: 'Norwester';
+      font-size: 20px;
+
+      #sublime {
+        color: yellow;
+      }
+      #hero {
+        color: white;
+      }
+    }
+  }
+
+
+  &__logo-subtitle {
+    font-weight: 300;
+  }
+
+
+  &__title {
+
+  }
+
+} 
+
+content {
+
+}
+
+info {
+  &__pressed {
+
+  }
+
+  &__pressed-label {
+
+  }
+
+  &__pressed-key {
+
+  }
+
+  &__pressed {
+
+    &--correct {
+
+    }
+
+  }
+
+  &__pressed-label {
+
+  }
+
+  &__pressed-key {
+
+  }
+
+} 
+
+shortcut {
+  &__title {
+
+  }
+  &__image {
+
+  }
+}
